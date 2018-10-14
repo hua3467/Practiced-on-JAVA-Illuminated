@@ -62,7 +62,7 @@ public class StudentsGrades
             sum += grades[i];
         }
         
-        return sum;
+        return sum / grades.length;
     }
     
     public int getMidGrade()

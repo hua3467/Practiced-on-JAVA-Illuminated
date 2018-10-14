@@ -14,7 +14,12 @@ public class StudentsGradesTest
     {
         StudentsGrades grade = new StudentsGrades(1000);
         
-        System.out.println(grade.getMode());
+        System.out.println( "The highest grade is " + grade.getHightestGrade());
+        System.out.println( "The average grade is " + grade.getAverageGrade() );
+        System.out.println( "The median grade is " + grade.getMidGrade() );
+        System.out.println( "The mode of the array: " + grade.getMode());
+        grade.sort();
+        System.out.println( " The sorted array: " + grade.toString() );
 
     }
     
