@@ -143,6 +143,7 @@ public class StudentsGrades
         return index;
     }
     
+    @Override
     public String toString()
     { 
         return ( Arrays.toString(grades) );
