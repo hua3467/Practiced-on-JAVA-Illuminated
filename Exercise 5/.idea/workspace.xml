@@ -12,11 +12,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryInputs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryInputs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryInputs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsBinary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsBinary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,13 +48,14 @@
         <option value="$PROJECT_DIR$/src/IfStatements.java" />
         <option value="$PROJECT_DIR$/src/XorOperation.java" />
         <option value="$PROJECT_DIR$/src/BinaryInputs.java" />
+        <option value="$PROJECT_DIR$/src/IsBinary.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
-    <option name="y" value="30" />
-    <option name="width" value="850" />
+    <option name="x" value="389" />
+    <option name="y" value="23" />
+    <option name="width" value="1037" />
     <option name="height" value="813" />
   </component>
   <component name="ProjectView">
@@ -67,8 +80,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -88,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryInputs">
+  <component name="RunManager" selected="Application.IsBinary">
     <configuration name="BinaryInputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryInputs" />
       <module name="Exercise 5" />
@@ -96,6 +109,11 @@
     </configuration>
     <configuration name="IfStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IfStatements" />
+      <module name="Exercise 5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="IsBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsBinary" />
       <module name="Exercise 5" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -149,9 +167,11 @@
       <item itemvalue="Application.IfStatements" />
       <item itemvalue="Application.XorOperation" />
       <item itemvalue="Application.BinaryInputs" />
+      <item itemvalue="Application.IsBinary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsBinary" />
         <item itemvalue="Application.BinaryInputs" />
         <item itemvalue="Application.XorOperation" />
         <item itemvalue="Application.IfStatements" />
@@ -172,8 +192,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="30" width="850" height="813" extended-state="0" />
-    <editor active="true" />
+    <frame x="389" y="23" width="1037" height="813" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -183,12 +202,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3044733" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25247526" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20502512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -212,6 +231,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BinaryInputs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IfStatements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -236,7 +262,17 @@
     <entry file="file://$PROJECT_DIR$/src/BinaryInputs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
