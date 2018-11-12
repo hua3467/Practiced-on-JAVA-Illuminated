@@ -6,23 +6,61 @@ public class SyntaxCheck {
         html = htmlWords;
     }
 
-    public boolean isHTML(){
-        if( html[0] == "<HTML>" && html[ html.length - 1 ] == "</HTML>" )
-            return true;
-        else
-            return false;
+    public String [] getArray(){
+        return html;
     }
 
-    public int countChar( String sentence, char character ){
+    public boolean isHTML(){
+
+        return html[0] == "<HTML>" && html[ html.length - 1 ] == "</HTML>";
+
+    }
+
+    public int countChar( String word, char character ){
         int count = 0;
-        for( int i = 0; i < sentence.length(); i++ ){
-            if( sentence.charAt(i) == character)
+        for( int i = 0; i< word.length() ; i++ ){
+            if( word.charAt(i) == character)
+                count++;
+        }
+        return count;
+    }
+
+    public int countImg(){
+        int count = 0;
+        for( int i = 0; i < html.length; i++ ){
+            if( html[i].contains("img"))
                 count++;
         }
         return count;
     }
 
     public boolean bracketsMatch(){
-       
+
+        int count1 = 0;
+        int count2 = 0;
+
+       for ( int i = 0; i < html.length; i++ ){
+           count1 += countChar( html[i], '<' );
+           count2 += countChar( html[i], '>');
+       }
+
+       return count1 == count2;
+
+    }
+
+    public int size(){
+        int count = 0;
+        for( int i = 0; i < html.length; i++ )
+            count ++;
+        return count;
+    }
+
+    public String toString(){
+        String str = "";
+        for( int i = 0; i < html.length; i++ ){
+            str += html[i] + "    ";
+        }
+
+        return str + html[0] + ", " + html[html.length-1];
     }
 }

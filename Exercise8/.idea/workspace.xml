@@ -15,12 +15,23 @@
       <file leaf-file-name="SyntaxCheck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SyntaxCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="345">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="e#91#92#0" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyntaxCheckClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SyntaxCheckClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -39,12 +50,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/UserAccount.java" />
         <option value="$PROJECT_DIR$/src/UserAccountClient.java" />
+        <option value="$PROJECT_DIR$/src/SyntaxCheckClient.java" />
         <option value="$PROJECT_DIR$/src/SyntaxCheck.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="12" />
+    <option name="y" value="31" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -91,7 +104,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SyntaxCheckClient">
+    <configuration name="SyntaxCheckClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SyntaxCheckClient" />
+      <module name="Exercise8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="UserAccountClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UserAccountClient" />
       <module name="Exercise8" />
@@ -138,8 +156,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.UserAccountClient" />
+      <item itemvalue="Application.SyntaxCheckClient" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SyntaxCheckClient" />
         <item itemvalue="Application.UserAccountClient" />
       </list>
     </recent_temporary>
@@ -169,12 +192,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.32756132" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32756132" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2886003" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -242,13 +265,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SyntaxCheckClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SyntaxCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="345">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#91#92#0" expanded="true" />
             <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
