@@ -1,3 +1,6 @@
+/**
+ * Exercise 8.11 67
+ */
 public class SyntaxCheck {
 
     private String[] html;
