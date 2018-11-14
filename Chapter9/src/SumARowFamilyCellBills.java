@@ -36,6 +36,5 @@ public class SumARowFamilyCellBills {
 
         System.out.println( "\nThe total family cell bills during " + months[currentMonth] + " is "
                         + priceFormat.format( monthlyFamilyBills ));
-
     }
 }
