@@ -15,7 +15,7 @@ public class NumOfColumns {
 
         NumOfColumns columns = new NumOfColumns(myArray);
 
-        System.out.println(columns.countColumns());             // this doesn't print correctly. 
+        System.out.println(columns.countColumns());             // this doesn't print correctly.
         System.out.println(columns.countColumnElements(6));
     }
 

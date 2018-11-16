@@ -1,5 +1,6 @@
 /**
  * 9.10.6.69
+ * 9.10.6.72
  */
 
 public class NumOfElements {
@@ -14,7 +15,9 @@ public class NumOfElements {
 
         NumOfElements elements = new NumOfElements(myArray);
 
-        System.out.println(elements.getElements());
+        System.out.println( "All the elements: " + elements.getElements());
+
+        System.out.println( "Sum of all the elements: " + sumElements( myArray ) );
 
     }
 
@@ -45,6 +48,19 @@ public class NumOfElements {
 
         return str;
 
+    }
+
+    public static float sumElements( float[][] array ){
+
+        float sum = 0;
+
+        for( int i = 0; i < array.length; i++ ){
+            for( int j = 0; j < array[i].length; j++ ){
+                sum += array[i][j];
+            }
+        }
+
+        return sum;
     }
 
 
