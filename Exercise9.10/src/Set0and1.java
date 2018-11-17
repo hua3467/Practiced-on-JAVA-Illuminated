@@ -20,7 +20,7 @@ public class Set0and1 {
 
         //setBinary( intArray );
         System.out.println( printArray(intArray));
-        System.out.println("sumLastColumn: " + sumLastColumn(intArray));
+        System.out.println("\nsumLastColumn: " + sumLastColumn(intArray));
     }
 
     public static void setBinary( int [][] array ){
